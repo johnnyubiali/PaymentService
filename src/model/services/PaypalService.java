@@ -11,8 +11,8 @@ public class PaypalService implements OnlinePaymentService{
 	}
 	
 	@Override
-	public double interest(double amount, int monthly) {
-		return amount * monthly_interest * monthly;
+	public double interest(double amount, int months) {
+		return amount * monthly_interest * months;
 	}
 	
 	
